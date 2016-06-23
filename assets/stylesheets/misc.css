@@ -1,0 +1,109 @@
+
+/*-- Background Colors --*/
+
+body {
+	background-color: #67727a;
+}
+
+.jumbo-neg {
+	background-color: #fff;
+}
+
+/*-- Navigation --*/
+
+.nav-left {
+	background-color: #d75c37;
+}
+
+.nav-right {
+	background-color: #d75c37;
+}
+
+/*-- Non-main navigation --*/
+
+.nav {
+	background-color: #d75c37;
+}
+
+
+/*-- Fix Responsive Image --*/
+
+#content-res img {
+	max-width: 100%;
+	min-width: 100%;
+}
+
+/*-- Buttons --*/
+
+#btn-main {
+	background-color: #d75c37;
+}
+
+#btn-main:hover {
+	background-color: #bf5536;
+	cursor: pointer;
+}
+
+.btn {
+	background-color: #6991ac;
+}
+
+.btn:hover {
+	background-color: #5c7f96;
+	cursor: pointer;
+}
+
+.form-btn {
+	-webkit-appearance: none;
+	border: none;
+	background-color: #d75c37;
+	box-shadow: none;
+}
+
+.form-btn:hover {
+	background-color: #bf5536;
+	cursor: pointer;
+}
+
+/*-- Fix Image sizes --*/
+
+.content img {
+	max-width: 100%;
+}
+
+/*-- Projects Page --*/
+
+.first {
+	background-color: #fff;
+}
+
+.second {
+	background-color: #d75c37;
+}
+
+.third {
+	background-color: #67727a;
+}
+
+.pro-border {
+	border: 2px dashed #67727a;
+}
+
+/*-- Contact Me --*/
+
+#contact {
+	border: 2px dashed #fff;
+}
+
+/*-- Coming Soon --*/
+
+.coming {
+	background-color: #67727a;
+}
+
+/*-- Footer --*/
+
+footer img {
+	max-width: 44px;
+	margin: .2em 0 0 2%;
+}

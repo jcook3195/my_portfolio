@@ -1,0 +1,371 @@
+/*----------Styling Reset----------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*-- Grid Styling --*/
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+.jumbotron {
+	width: 100%;
+}
+
+.grid {
+	overflow: auto;
+}
+
+.footer {
+	width: 100%;
+}
+
+/*-- Column Styling --*/
+
+.col-left {
+	float: left;
+}
+
+.col-mid {
+	float: left;
+}
+
+.col-right {
+	float: right;
+}
+
+.col-1-3 {
+	width: 33.33%;
+}
+
+.col-2-3 {
+	width: 66.66%;
+}
+
+
+/*-- Content Containers --*/
+
+#content-main {
+	margin: auto;
+	width: 50%;
+	padding: 8% 0;
+}
+
+.content {
+	margin: auto;
+	width: 60%;
+	padding: 10% 0;
+}
+
+.header {
+	margin: 1em 0;
+}
+
+/*-- Expand content container on mobile --*/
+
+@media all and (max-width:800px) {
+
+	#content-main {
+		width: 90%;
+	}
+}
+
+
+/*-- To make home image fit better --*/
+
+#content-res {
+	width: 100%;
+	padding: 0;
+}
+
+
+/*-- Stack on Mobile --*/
+
+@media all and (max-width:800px) {
+
+	.col-left,
+	.col-mid,
+	.col-right {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+
+	.col-1-2 {
+		width: 100%;
+	}
+}
+
+/*-- Navigation --*/
+
+.nav-left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 111px;
+	border-bottom-right-radius: 10px;
+}
+
+.nav-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 111px;
+	border-bottom-left-radius: 10px;
+}
+
+@media all and (max-width:800px) {
+
+	.logo {
+		margin-bottom: 1em;
+	}
+}
+
+/*-- Non-main page navigation --*/
+
+.nav {
+	width: 100%;
+	float: left;
+}
+
+.nav li {
+	display: inline-block;
+	margin: 1em;
+}
+
+.nav h1 {
+	margin: 0 1em;
+}
+
+@media all and (max-width:800px) {
+
+	.nav li {
+		margin: .5em;
+	}
+
+}
+
+
+/*-- Navigation list --*/
+
+.nav-footer li {
+	display: inline-block;
+	margin: 0 1.3em 1.3em 0;
+}
+
+/*-- Fix border radius on mobile --*/
+
+@media all and (max-width:800px) {
+
+	.nav-left {
+		border-radius: 0;
+	}
+
+	.nav-right {
+		border-radius: 0;
+	}
+}
+
+/*-- Responsive section --*/
+
+#responsive {
+	padding: 0;
+}
+
+.fill-height {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media all and (max-width:800px) {
+
+	#responsive {
+		padding: 1em 0;
+	}
+
+	.fill-height {
+		display: inline-block;
+	}
+}
+
+/*-- Buttons --*/
+
+#btn-main {
+	margin: 5% auto 2% auto;
+	width: 25%;
+	padding: 1em;
+	border-radius: 5px;
+}
+
+.btn {
+	margin: 2% auto 15% auto;
+	width: 40%;
+	padding: 1em;
+	border-radius: 5px;
+}
+
+
+/*-- Mobile Buttons --*/
+
+@media all and (max-width:800px) {
+
+	#btn-main {
+		width: 80%;
+	}
+
+	.btn {
+		width: 60%;
+	}
+}
+
+/*-- Footer --*/
+
+.nav-footer ul {
+	margin-top: 1em;
+	padding: .5em;
+}
+
+.address {
+	padding: .9em 0 .9em 0;
+}
+
+/*-- Projects Page --*/
+
+.col-1-2 {
+	width: 50%;
+}
+
+.project-image {
+	border-radius: 10px;
+	border: 3px dashed black;
+}
+
+@media all and (max-width:800px) {
+
+	.content {
+		width: 100%;
+	}
+}
+
+.pro-border {
+	padding: 2em 1em;
+}
+
+/*-- Stack on Mobile --*/
+
+@media all and (max-width:800px) {
+
+	.col-1-2 {
+		width: 100%;
+	}
+}
+
+/*-- Contact Me --*/
+
+#contact {
+	width: 80%;
+	margin: 1em auto 8em auto;
+	padding: 5% 0;
+	text-align: center;
+}
+
+input {
+	width: 80%;
+	border-radius: 5px;
+	padding: 1em .2em;
+	margin: 1em auto;
+}
+
+textarea {
+	width: 80%;
+	border-radius: 5px;
+	margin: 1em auto;
+	padding: 1em .2em;
+}
+
+#contact-content {
+	margin: 1em 0 0 0;
+}
+
+/*-- Coming Soon --*/
+
+.soon {
+	padding: 3em;
+}
+
+.soon h3 {
+	margin: 1em;
+}
+
+.soon p {
+	max-width: 50%;
+	margin: 0 25%;
+}
+
+@media all and (max-width:800px) {
+
+	.soon {
+		padding: 3em 1em;
+	}
+
+	.soon h3 {
+		margin: 1em 0;
+	}
+
+	.soon p {
+		max-width: 100%;
+	}
+
+}
