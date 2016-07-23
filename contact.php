@@ -12,6 +12,16 @@
     <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
     <link rel="icon" type="image/png" href="assets/images/favicon/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="assets/images/favicon/favicon-16x16.png" sizes="16x16" />
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-81238767-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 
 <body>
@@ -110,7 +120,7 @@
 
     <footer class="footer grid jumbo-neg">
 
-        <section class="col-2-3 col-left font-2 nav-footer">
+        <div class="col-2-3 col-left font-2 nav-footer">
 
             <ul>
                 <li><a href="http://jordanscook.com">Home</a></li>
@@ -120,24 +130,24 @@
 
             <p>&copy; Jordan Cook Website Design and Development <span class="version">V1.1</span></p>
 
-        </section>
+        </div>
 
-        <section class="col-1-3 col-right">
+        <div class="col-1-3 col-right">
 
             <a href="https://www.facebook.com/jordan.cook.9041"><img src="assets/images/icons/facebook.png" alt="Facebook Icon"></a>
             <a href="https://twitter.com/jordancookdev"><img src="assets/images/icons/twitter.png" alt="Twitter Icon"></a>
             <a href="https://www.linkedin.com/in/jordan-cook-643225112?trk=hp-identity-name"><img src="assets/images/icons/linkedin.png" alt="Linkedin Icon"></a>
             <a href="https://github.com/jcook3195"><img src="assets/images/icons/github.png" alt="GitHub Icon"></a>
 
-        </section>
+        </div>
 
-        <section class="col-1-3 col-right font-2 address">
+        <div class="col-1-3 col-right font-2 address">
             <p>87 Persimmon Way
                 <br>
             Sparta, GA 31087
                 <br>
             jordan@jordanscook.com</p>
-        </section>
+        </div>
 
     </footer>
 
