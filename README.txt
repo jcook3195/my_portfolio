@@ -1,4 +1,6 @@
-Jordan's Porfolio 
+Jordan's Porfolio
+
+Author: Jordan Cook 
 
 Version 1.1 06/22/2016
 
