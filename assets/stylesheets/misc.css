@@ -11,13 +11,24 @@ body {
 
 /*-- Navigation --*/
 
-.nav-left {
-	background-color: #d75c37;
-}
+	/*-- Transition --*/
 
-.nav-right {
-	background-color: #d75c37;
-}
+	.border-grow {
+		padding-bottom: 10px;
+	}
+
+	.border-grow:after {
+		display: block;
+		content: '';
+		padding-bottom: 10px;
+		border-bottom: solid 3px #d75c37;  
+		transform: scaleX(0);  
+		transition: transform 250ms ease-in-out;
+	}
+
+	.border-grow:hover:after {
+		transform: scaleX(1);
+	}
 
 /*-- Non-main navigation --*/
 
