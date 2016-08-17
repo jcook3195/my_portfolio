@@ -217,6 +217,12 @@ table {
 	}
 }
 
+/*-- Featured Pages --*/
+
+.feat-des {
+	margin-bottom: 10px;
+}
+
 /*-- Responsive section --*/
 
 #responsive {
@@ -377,4 +383,10 @@ textarea {
 		max-width: 100%;
 	}
 
+}
+
+/*-- Flexbox --*/
+
+.flex-center {
+	align-items: flex-end;
 }

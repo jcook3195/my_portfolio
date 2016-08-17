@@ -76,6 +76,12 @@ body {
 	cursor: pointer;
 }
 
+/*-- Responsive Section Background --*/
+
+#res-bkgd {
+	background-color: #222324;
+}
+
 /*-- Fix Image sizes --*/
 
 .content img {
@@ -130,4 +136,14 @@ footer img {
 	background: url(images/typingsnapshot.png);
 	background-size: cover;
 	z-index: -100;
+}
+
+/*-- Image Shadows --*/
+
+#feat-pages img {
+	box-shadow: 10px 10px 5px grey;
+}
+
+#feat-pages h4 {
+	text-shadow: 2px 2px 4px grey;
 }
