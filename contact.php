@@ -135,10 +135,10 @@
 
         <div class="col-1-3 col-right">
 
-            <a href="https://www.facebook.com/jordan.cook.9041"><img src="assets/images/icons/facebook.png" alt="Facebook Icon"></a>
-            <a href="https://twitter.com/jordancookdev"><img src="assets/images/icons/twitter.png" alt="Twitter Icon"></a>
-            <a href="https://www.linkedin.com/in/jordan-cook-643225112?trk=hp-identity-name"><img src="assets/images/icons/linkedin.png" alt="Linkedin Icon"></a>
-            <a href="https://github.com/jcook3195"><img src="assets/images/icons/github.png" alt="GitHub Icon"></a>
+            <a href="https://www.facebook.com/jordan.cook.9041"><img class="soc-icon" src="assets/images/icons/facebook.png" alt="Facebook Icon"></a>
+            <a href="https://twitter.com/jordancookdev"><img class="soc-icon" src="assets/images/icons/twitter.png" alt="Twitter Icon"></a>
+            <a href="https://www.linkedin.com/in/jordan-cook-643225112?trk=hp-identity-name"><img class="soc-icon" src="assets/images/icons/linkedin.png" alt="Linkedin Icon"></a>
+            <a href="https://github.com/jcook3195"><img class="soc-icon" src="assets/images/icons/github.png" alt="GitHub Icon"></a>
 
         </div>
 

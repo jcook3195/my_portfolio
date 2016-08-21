@@ -48,6 +48,10 @@ table {
 	border-spacing: 0;
 }
 
+img {
+	display: block;
+}
+
 
 /*-- Grid Styling --*/
 
@@ -296,6 +300,9 @@ table {
 	padding: .9em 0 .9em 0;
 }
 
+.soc-icon {
+	display: inline-block;
+}
 /*-- Projects Page --*/
 
 .col-1-2 {
